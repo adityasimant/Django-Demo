@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css"></head>
+    {% block head %}{% endblock head %}
 <body>
     <header class="text-gray-600 body-font bg-gray-100">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
@@ -12,8 +13,9 @@
             <span class="ml-3 text-xl">Freedom 20</span>
           </a>
           <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center justify-center">
-            <a class="mr-5 " href ="about/">about</a>
-            <a class="mr-5 " href ="menu/">menu</a>
+            <a class="mr-5 " href ="about/">About</a>
+            <a class="mr-5 " href ="menu/">Menu</a>
+            <a class="mr-5 " href ="contact/">Contact</a>
           </nav>
           <button class="inline-flex text-white items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 bg-yellow-500 ">Login / Sign up
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
